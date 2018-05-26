@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+		<script
+	  		src="https://code.jquery.com/jquery-3.3.1.slim.js"
+	  		integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+	  		crossorigin="anonymous"></script>
+	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL8cIHCb9vEEeW-qJKBpRt-uhtNp4Bg88&libraries=geometry,places&callback=" async defer></script>
+		<title>Learn Fight Skills Around your Area</title>
+	</head>
+	<body>
+		<header id="header" class="content">
+			<div class="inHeader">
+			<h1 class="specialBoxTwo"><!--<img class="icons" src="https://static.vecteezy.com/system/resources/previews/000/143/644/non_2x/boxing-gloves-vector.png" style="width:100px;height:100%">-->FIGHT YOUR WAY TO THE TOP<!--<img class="icons" src="https://images.vexels.com/media/users/3/141906/isolated/preview/52ade7b9692778ed32eb7004138092b5-kickboxing-bloque-de-patada-de-rodilla-by-vexels.png" alt="kickboxing-knee-emoji" style="width:100px;height:100%">--></h1>
+			<h3 class="specialBox">HEAD TO THE NEAREST FIGHT GYM TO TRAIN</h3>
+			</div>
+		</header>
+		<div id="content">
+			<button id="getLocation" onclick="getLocation()">Try It</button>
+			<p id="demo"></p>
+			<div id="row">
+				<div class="col-3"; style="overflow-y:scroll; height:400px";>
+					<p id="sideBarTest"></p>
+					<!--<form>
+						<label for="Search items here"></label>
+						<input type="text" id="searchBoxMain" placeholder="Search Box"></input>
+						<button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
+					</form> -->
+				</div>
+				<div class="col-9">
+					<div id="map"></div>
+				</div>
+			</div>
+		</div>
+		<script src="index.js" type="text/javascript"></script>
+	</body>
+</html>
